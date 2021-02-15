@@ -1,0 +1,43 @@
+.Right__Button {
+  position: fixed;
+  right: 10%;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  z-index: 9999;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Right__Button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+@media (min-width: 280px) and (max-width: 899px) {
+  .Right__Button {
+    right: 20%;
+    bottom: 5%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1350px) {
+  .Right__Button {
+    right: 20%;
+    bottom: 5%;
+  }
+}
+
+@media (min-width: 1351px) and (max-width: 1610px) {
+  .Right__Button {
+    right: 20%;
+    bottom: 5%;
+  }
+}

@@ -1,0 +1,309 @@
+.Circle1__Right__To__Left {
+  animation: AnimateCircle1__Right__Left 1s;
+  animation-fill-mode: forwards;
+}
+.Circle1__Left__To__Right {
+  animation: AnimateCircle1__Left__Right 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes AnimateCircle1__Right__Left {
+  from {
+    top: 10%;
+    right: 15%;
+  }
+  to {
+    top: 5%;
+    right: 70%;
+  }
+}
+@keyframes AnimateCircle1__Left__Right {
+  from {
+    top: 5;
+    right: 70%;
+  }
+  to {
+    top: 10%;
+    right: 15%;
+  }
+}
+.Circle2__Left__To__Right {
+  animation: AnimateCircle2__Left__Right 1s;
+  animation-fill-mode: forwards;
+}
+.Circle2__Right__To__Left {
+  animation: AnimateCircle2__Right__Left 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes AnimateCircle2__Left__Right {
+  from {
+    bottom: 10%;
+    left: 15%;
+  }
+  to {
+    bottom: 5%;
+    left: 70%;
+  }
+}
+@keyframes AnimateCircle2__Right__Left {
+  from {
+    bottom: 5%;
+    left: 70%;
+  }
+  to {
+    bottom: 10%;
+    left: 15%;
+  }
+}
+
+/* ///////////////////////////////////////////////// */
+/* Card Animations */
+.AnimateCurrentCard__Right__To__Left {
+  position: absolute;
+  animation: AnimateCurrentCard__Right__To__Left 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes AnimateCurrentCard__Right__To__Left {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 20%;
+  }
+}
+
+.AnimatePrevCard__Right__To__Left {
+  position: absolute;
+  animation: AnimatePrevCard__Right__To__Left 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes AnimatePrevCard__Right__To__Left {
+  from {
+    left: 20%;
+  }
+  to {
+    left: -100%;
+  }
+}
+/* ////////////////// */
+.AnimateCurrentCard__Left__To__Right {
+  position: absolute;
+  animation: AnimateCurrentCard__Left__To__Right 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes AnimateCurrentCard__Left__To__Right {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 20%;
+  }
+}
+
+.AnimatePrevCard__Left__To__Right {
+  position: absolute;
+  animation: AnimatePrevCard__Left__To__Right 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes AnimatePrevCard__Left__To__Right {
+  from {
+    right: 20%;
+  }
+  to {
+    right: -100%;
+  }
+}
+
+/* ////////////////////////////////////////////////////////
+  Responsive */
+
+@media (min-width: 280px) and (max-width: 1350px) {
+  /* Card Animations */
+  .AnimateCurrentCard__Right__To__Left {
+    position: absolute;
+    animation: AnimateCurrentCard__Right__To__Left 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimateCurrentCard__Right__To__Left {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 5%;
+    }
+  }
+
+  .AnimatePrevCard__Right__To__Left {
+    position: absolute;
+    animation: AnimatePrevCard__Right__To__Left 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimatePrevCard__Right__To__Left {
+    from {
+      left: 5%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  /* ////////////////// */
+  .AnimateCurrentCard__Left__To__Right {
+    position: absolute;
+    animation: AnimateCurrentCard__Left__To__Right 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimateCurrentCard__Left__To__Right {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 5%;
+    }
+  }
+
+  .AnimatePrevCard__Left__To__Right {
+    position: absolute;
+    animation: AnimatePrevCard__Left__To__Right 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimatePrevCard__Left__To__Right {
+    from {
+      right: 5%;
+    }
+    to {
+      right: -100%;
+    }
+  }
+}
+
+@media (min-width: 1351px) and (max-width: 1610px) {
+  /* Card Animations */
+  .AnimateCurrentCard__Right__To__Left {
+    position: absolute;
+    animation: AnimateCurrentCard__Right__To__Left 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimateCurrentCard__Right__To__Left {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 10%;
+    }
+  }
+
+  .AnimatePrevCard__Right__To__Left {
+    position: absolute;
+    animation: AnimatePrevCard__Right__To__Left 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimatePrevCard__Right__To__Left {
+    from {
+      left: 10%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  /* ////////////////// */
+  .AnimateCurrentCard__Left__To__Right {
+    position: absolute;
+    animation: AnimateCurrentCard__Left__To__Right 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimateCurrentCard__Left__To__Right {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 10%;
+    }
+  }
+
+  .AnimatePrevCard__Left__To__Right {
+    position: absolute;
+    animation: AnimatePrevCard__Left__To__Right 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes AnimatePrevCard__Left__To__Right {
+    from {
+      right: 10%;
+    }
+    to {
+      right: -100%;
+    }
+  }
+}
+
+/* //////////////////////////////////////////////
+  Circle Responsive */
+
+@media (min-width: 280px) and (max-width: 699px) {
+  .Circle1__Right__To__Left {
+    animation: AnimateCircle1__Right__Left 1s;
+    animation-fill-mode: forwards;
+  }
+  .Circle1__Left__To__Right {
+    animation: AnimateCircle1__Left__Right 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes AnimateCircle1__Right__Left {
+    from {
+      top: 0%;
+      right: 0%;
+    }
+    to {
+      top: 0%;
+      right: 70%;
+    }
+  }
+  @keyframes AnimateCircle1__Left__Right {
+    from {
+      top: 0;
+      right: 70%;
+    }
+    to {
+      top: 0;
+      right: 0;
+    }
+  }
+  .Circle2__Left__To__Right {
+    animation: AnimateCircle2__Left__Right 1s;
+    animation-fill-mode: forwards;
+  }
+  .Circle2__Right__To__Left {
+    animation: AnimateCircle2__Right__Left 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes AnimateCircle2__Left__Right {
+    from {
+      bottom: 10%;
+      left: 5%;
+    }
+    to {
+      bottom: 10%;
+      left: 60%;
+    }
+  }
+  @keyframes AnimateCircle2__Right__Left {
+    from {
+      bottom: 10%;
+      left: 60%;
+    }
+    to {
+      bottom: 10%;
+      left: 5%;
+    }
+  }
+}
