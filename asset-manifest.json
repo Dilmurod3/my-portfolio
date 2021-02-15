@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.8b584194.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.9154410c.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.9154410c.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.b73a517b.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.b73a517b.js.map",
+    "static/js/2.bfbf7417.chunk.js": "/my-portfolio/static/js/2.bfbf7417.chunk.js",
+    "static/js/2.bfbf7417.chunk.js.map": "/my-portfolio/static/js/2.bfbf7417.chunk.js.map",
+    "static/js/3.9c78ed98.chunk.js": "/my-portfolio/static/js/3.9c78ed98.chunk.js",
+    "static/js/3.9c78ed98.chunk.js.map": "/my-portfolio/static/js/3.9c78ed98.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.8b584194.chunk.css.map": "/my-portfolio/static/css/main.8b584194.chunk.css.map",
+    "static/js/2.bfbf7417.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.bfbf7417.chunk.js.LICENSE.txt",
+    "static/media/Css.e985b0b8.svg": "/my-portfolio/static/media/Css.e985b0b8.svg",
+    "static/media/Facebook.0b36075c.svg": "/my-portfolio/static/media/Facebook.0b36075c.svg",
+    "static/media/Figma.4c2141e4.svg": "/my-portfolio/static/media/Figma.4c2141e4.svg",
+    "static/media/Figma.93fdeb07.svg": "/my-portfolio/static/media/Figma.93fdeb07.svg",
+    "static/media/Github.fb97f1eb.svg": "/my-portfolio/static/media/Github.fb97f1eb.svg",
+    "static/media/Gmail.bd3ca7bb.svg": "/my-portfolio/static/media/Gmail.bd3ca7bb.svg",
+    "static/media/Html.e9882fc6.svg": "/my-portfolio/static/media/Html.e9882fc6.svg",
+    "static/media/Instagram.26eaea93.svg": "/my-portfolio/static/media/Instagram.26eaea93.svg",
+    "static/media/Js.19ed8319.svg": "/my-portfolio/static/media/Js.19ed8319.svg",
+    "static/media/LeftArrow.5011aac5.svg": "/my-portfolio/static/media/LeftArrow.5011aac5.svg",
+    "static/media/ReactIcon.40a60134.svg": "/my-portfolio/static/media/ReactIcon.40a60134.svg",
+    "static/media/ReactNative.004df4fe.svg": "/my-portfolio/static/media/ReactNative.004df4fe.svg",
+    "static/media/RightArrow.7e04ae2b.svg": "/my-portfolio/static/media/RightArrow.7e04ae2b.svg",
+    "static/media/Telegram.1da55ed1.svg": "/my-portfolio/static/media/Telegram.1da55ed1.svg",
+    "static/media/About.css": "/my-portfolio/static/media/owner.c73252cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b73a517b.js",
+    "static/js/2.bfbf7417.chunk.js",
+    "static/css/main.8b584194.chunk.css",
+    "static/js/main.9154410c.chunk.js"
+  ]
+}
