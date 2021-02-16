@@ -1,5 +1,6 @@
 .Background {
   height: 100vh;
+  overflow: hidden;
 }
 .Circle1 {
   position: absolute;
@@ -32,6 +33,7 @@
     rgba(255, 255, 255, 0.05) 100%
   );
   padding: 50px;
+  overflow-x: hidden;
 }
 .Main {
   display: flex;
@@ -66,14 +68,14 @@
   }
 }
 
-@media (min-width: 280px) and (max-width: 899px) {
+@media (min-width: 100px) and (max-width: 899px) {
   .Circle1 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
   .Circle2 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
   .Main {
     align-items: flex-start;

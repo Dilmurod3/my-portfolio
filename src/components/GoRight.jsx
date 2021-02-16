@@ -6,7 +6,7 @@ import RightArrow from "../assets/RightArrow.svg";
 function GoRight({ pathname, handleGoRightClicked }) {
   return (
     <div className="Right__Button">
-      <Link className="" onClick={handleGoRightClicked} to={pathname}>
+      <Link onClick={handleGoRightClicked} to={pathname}>
         <img src={RightArrow} />
       </Link>
     </div>

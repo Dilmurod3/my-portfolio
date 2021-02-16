@@ -80,3 +80,28 @@
 .Send__Button:hover {
   background-color: #208b4e;
 }
+
+@media (min-width: 100px) and (max-width: 730px) {
+  .Inputs__Container {
+    width: 100%;
+  }
+  .Name__Email__Inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .Name__Email__Inputs > input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .SocialIcons__SendButton__Container {
+    flex-direction: column;
+  }
+  .Send__Button {
+    margin-top: 20px;
+  }
+  .Social__Icons > a > img {
+    margin-bottom: 20px;
+  }
+}

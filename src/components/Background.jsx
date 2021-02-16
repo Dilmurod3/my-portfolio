@@ -9,7 +9,7 @@ import GoLeft from "../components/GoLeft";
 
 function Background() {
   const [prevPage, setPrevPage] = useState();
-  const [location, setLocation] = useState();
+  const [location, setLocation] = useState("/");
   const [nextLocation, setNextLocation] = useState();
   const [prevLocation, setPrevLocation] = useState();
   const [goRightClicked, setGoRightClicked] = useState(false);
