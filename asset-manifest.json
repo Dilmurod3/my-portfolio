@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.28021755.chunk.css",
+    "main.css": "/my-portfolio/static/css/main.9a66c25f.chunk.css",
     "main.js": "/my-portfolio/static/js/main.9a4bf854.chunk.js",
     "main.js.map": "/my-portfolio/static/js/main.9a4bf854.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.1062c9b6.js",
@@ -10,7 +10,7 @@
     "static/js/3.a09415fe.chunk.js": "/my-portfolio/static/js/3.a09415fe.chunk.js",
     "static/js/3.a09415fe.chunk.js.map": "/my-portfolio/static/js/3.a09415fe.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.28021755.chunk.css.map": "/my-portfolio/static/css/main.28021755.chunk.css.map",
+    "static/css/main.9a66c25f.chunk.css.map": "/my-portfolio/static/css/main.9a66c25f.chunk.css.map",
     "static/js/2.05fcc279.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.05fcc279.chunk.js.LICENSE.txt",
     "static/media/Css.e985b0b8.svg": "/my-portfolio/static/media/Css.e985b0b8.svg",
     "static/media/Facebook.0b36075c.svg": "/my-portfolio/static/media/Facebook.0b36075c.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.1062c9b6.js",
     "static/js/2.05fcc279.chunk.js",
-    "static/css/main.28021755.chunk.css",
+    "static/css/main.9a66c25f.chunk.css",
     "static/js/main.9a4bf854.chunk.js"
   ]
 }
