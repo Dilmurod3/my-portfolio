@@ -59,7 +59,7 @@
 /* Card Animations */
 .AnimateCurrentCard__Right__To__Left {
   position: absolute;
-  animation: AnimateCurrentCard__Right__To__Left 0.5s;
+  animation: AnimateCurrentCard__Right__To__Left 1s;
   animation-fill-mode: forwards;
 }
 
@@ -74,7 +74,7 @@
 
 .AnimatePrevCard__Right__To__Left {
   position: absolute;
-  animation: AnimatePrevCard__Right__To__Left 0.5s;
+  animation: AnimatePrevCard__Right__To__Left 1s;
   animation-fill-mode: forwards;
 }
 
@@ -89,7 +89,7 @@
 /* ////////////////// */
 .AnimateCurrentCard__Left__To__Right {
   position: absolute;
-  animation: AnimateCurrentCard__Left__To__Right 0.5s;
+  animation: AnimateCurrentCard__Left__To__Right 1s;
   animation-fill-mode: forwards;
 }
 
@@ -104,7 +104,7 @@
 
 .AnimatePrevCard__Left__To__Right {
   position: absolute;
-  animation: AnimatePrevCard__Left__To__Right 0.5s;
+  animation: AnimatePrevCard__Left__To__Right 1s;
   animation-fill-mode: forwards;
 }
 
@@ -124,7 +124,7 @@
   /* Card Animations */
   .AnimateCurrentCard__Right__To__Left {
     position: absolute;
-    animation: AnimateCurrentCard__Right__To__Left 0.5s;
+    animation: AnimateCurrentCard__Right__To__Left 1s;
     animation-fill-mode: forwards;
   }
 
@@ -139,7 +139,7 @@
 
   .AnimatePrevCard__Right__To__Left {
     position: absolute;
-    animation: AnimatePrevCard__Right__To__Left 0.5s;
+    animation: AnimatePrevCard__Right__To__Left 1s;
     animation-fill-mode: forwards;
   }
 
@@ -154,7 +154,7 @@
   /* ////////////////// */
   .AnimateCurrentCard__Left__To__Right {
     position: absolute;
-    animation: AnimateCurrentCard__Left__To__Right 0.5s;
+    animation: AnimateCurrentCard__Left__To__Right 1s;
     animation-fill-mode: forwards;
   }
 
@@ -169,7 +169,7 @@
 
   .AnimatePrevCard__Left__To__Right {
     position: absolute;
-    animation: AnimatePrevCard__Left__To__Right 0.5s;
+    animation: AnimatePrevCard__Left__To__Right 1s;
     animation-fill-mode: forwards;
   }
 
@@ -187,7 +187,7 @@
   /* Card Animations */
   .AnimateCurrentCard__Right__To__Left {
     position: absolute;
-    animation: AnimateCurrentCard__Right__To__Left 0.5s;
+    animation: AnimateCurrentCard__Right__To__Left 1s;
     animation-fill-mode: forwards;
   }
 
@@ -202,7 +202,7 @@
 
   .AnimatePrevCard__Right__To__Left {
     position: absolute;
-    animation: AnimatePrevCard__Right__To__Left 0.5s;
+    animation: AnimatePrevCard__Right__To__Left 1s;
     animation-fill-mode: forwards;
   }
 
@@ -217,7 +217,7 @@
   /* ////////////////// */
   .AnimateCurrentCard__Left__To__Right {
     position: absolute;
-    animation: AnimateCurrentCard__Left__To__Right 0.5s;
+    animation: AnimateCurrentCard__Left__To__Right 1s;
     animation-fill-mode: forwards;
   }
 
@@ -232,7 +232,7 @@
 
   .AnimatePrevCard__Left__To__Right {
     position: absolute;
-    animation: AnimatePrevCard__Left__To__Right 0.5s;
+    animation: AnimatePrevCard__Left__To__Right 1s;
     animation-fill-mode: forwards;
   }
 

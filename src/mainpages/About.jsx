@@ -31,11 +31,13 @@ function About() {
       <div className="AboutOwner">
         <h2>About Me</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus vero
-          voluptatem praesentium, libero ex saepe voluptatum veritatis, tempora
-          laboriosam quod quia aperiam eius in rerum magnam repellendus, dolorum
-          nostrum deleniti et harum ea doloremque non quisquam. Aspernatur
-          exercitationem quidem unde.
+          I have been working on Figma to design beautiful, creative, and unique
+          UX/UI design for applications, that will be catchy and leaves a trace
+          in your heart. And right after finishing my design, I will jump on the
+          fun coding part to make sure to build attractive, easy to use,
+          scalable, and of course identical to my mockups and UI/UX designs with
+          React, React-Native, and other frontend tools, so that makes you feel
+          as comfortable as home.
         </p>
       </div>
     </div>

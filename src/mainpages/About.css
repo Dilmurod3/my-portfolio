@@ -2,7 +2,7 @@
   height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   overflow-y: scroll;
   overflow: hidden;
 }
@@ -21,7 +21,7 @@
 }
 .OwnerPhoto {
   display: inline-block;
-  background-image: url("../assets/owner.jpg");
+  background-image: url("../assets/Dilmurod.jpeg");
   background-size: cover;
   width: 80px;
   height: 80px;

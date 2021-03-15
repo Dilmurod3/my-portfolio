@@ -47,13 +47,13 @@
   background: linear-gradient(107.56deg, #5f72bd 0%, #9b23ea 100%);
 }
 .ProjectsPageColor {
-  background: linear-gradient(72.44deg, #2c5593 0%, #5f72bd 100%);
+  background: linear-gradient(72.44deg, #9b23ea 0%, #f68084 30%);
   background-size: 400% 400%;
   animation: gradient 3s ease;
   animation-fill-mode: forwards;
 }
 .ContactPageColor {
-  background: linear-gradient(107.56deg, #5f72bd 0%, #9b23ea 100%);
+  background: linear-gradient(107.56deg, #f68084 0%, #9b23ea 100%);
 }
 
 @keyframes gradient {
@@ -61,7 +61,7 @@
     background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 70% 50%;
   }
   100% {
     background-position: 0% 50%;

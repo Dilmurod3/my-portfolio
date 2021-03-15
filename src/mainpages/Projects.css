@@ -1,5 +1,3 @@
-.ProjectsPage {
-}
 .ProjectsPage > h1 {
   text-align: center;
   color: #222222;
@@ -8,22 +6,20 @@
   margin-bottom: 50px;
 }
 .Box {
-  background-color: royalblue;
   width: 210px;
   height: 140px;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-radius: 8px;
+  margin: 15px;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+.Box:hover {
+  transform: scale(1.1);
 }
 a {
   text-decoration: none;
-}
-.Box > p {
-  font-size: 18px;
+  font-size: 26px;
   color: #f2f2f2;
-  margin-bottom: 10px;
+  text-align: center;
 }
 .Projects {
   display: flex;

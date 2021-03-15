@@ -2,7 +2,6 @@ import React from "react";
 import "./Contact.css";
 import Telegram from "../assets/social-icons/Telegram.svg";
 import Gmail from "../assets/social-icons/Gmail.svg";
-import Figma from "../assets/social-icons/Figma.svg";
 import Github from "../assets/social-icons/Github.svg";
 import Facebook from "../assets/social-icons/Facebook.svg";
 import Instagram from "../assets/social-icons/Instagram.svg";
@@ -19,7 +18,7 @@ function Contact() {
         <textarea
           className="TextArea"
           name="text"
-          placeholder="Message..."
+          placeholder="Not working yet! You can also send me a message by clicking the telegram icon below"
         ></textarea>
       </div>
       <div className="SocialIcons__SendButton__Container">
@@ -27,7 +26,7 @@ function Contact() {
           <a href="https://t.me/DilmurodRahimov" target="_blank">
             <img src={Telegram} />
           </a>
-          <a href="https://t.me/DilmurodRahimov" target="_blank">
+          <a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">
             <img src={Gmail} />
           </a>
           <a
@@ -42,10 +41,7 @@ function Contact() {
           >
             <img src={Instagram} />
           </a>
-          <a href="https://t.me/DilmurodRahimov" target="_blank">
-            <img src={Figma} />
-          </a>
-          <a href="https://t.me/DilmurodRahimov" target="_blank">
+          <a href="https://github.com/Dilmurod3" target="_blank">
             <img src={Github} />
           </a>
         </div>
