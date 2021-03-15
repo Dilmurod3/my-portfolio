@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import Telegram from "../assets/social-icons/Telegram.svg";
-import Gmail from "../assets/social-icons/Gmail.svg";
+// import Gmail from "../assets/social-icons/Gmail.svg";
 import Github from "../assets/social-icons/Github.svg";
 import Facebook from "../assets/social-icons/Facebook.svg";
 import Instagram from "../assets/social-icons/Instagram.svg";
@@ -26,17 +26,14 @@ function Contact() {
           <a href="https://t.me/DilmurodRahimov" target="_blank">
             <img src={Telegram} />
           </a>
-          <a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">
+          {/* <a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">
             <img src={Gmail} />
-          </a>
-          <a
-            href="https://www.facebook.com/settings?tab=account&section=username"
-            target="_blank"
-          >
+          </a> */}
+          <a href="https://www.facebook.com/Dilmurod.Rahimoff/" target="_blank">
             <img src={Facebook} />
           </a>
           <a
-            href="https://www.figma.com/file/nErQiD4fgUF41NWff0o1VA/Qadaa-Calculator?node-id=0%3A1"
+            href="https://www.instagram.com/dilmurod__rahimov/"
             target="_blank"
           >
             <img src={Instagram} />
