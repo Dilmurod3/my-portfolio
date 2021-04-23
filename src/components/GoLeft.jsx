@@ -5,11 +5,9 @@ import LeftArrow from "../assets/LeftArrow.svg";
 
 function GoLeft({ pathname, handleGoLeftClicked }) {
   return (
-    <div className="Left__Button">
-      <Link to={pathname} onClick={handleGoLeftClicked}>
-        <img src={LeftArrow} />
-      </Link>
-    </div>
+    <Link to={pathname} onClick={handleGoLeftClicked} className="Left__Button">
+      <img src={LeftArrow} />
+    </Link>
   );
 }
 

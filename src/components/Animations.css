@@ -12,8 +12,8 @@
     right: 15%;
   }
   to {
-    top: 5%;
-    right: 70%;
+    top: 20%;
+    right: 72%;
   }
 }
 @keyframes AnimateCircle1__Left__Right {
@@ -22,7 +22,7 @@
     right: 70%;
   }
   to {
-    top: 10%;
+    top: 20%;
     right: 15%;
   }
 }
@@ -40,17 +40,17 @@
     left: 15%;
   }
   to {
-    bottom: 5%;
-    left: 70%;
+    bottom: 20%;
+    left: 73%;
   }
 }
 @keyframes AnimateCircle2__Right__Left {
   from {
-    bottom: 5%;
+    bottom: 10%;
     left: 70%;
   }
   to {
-    bottom: 10%;
+    bottom: 20%;
     left: 15%;
   }
 }
@@ -249,6 +249,7 @@
 /* //////////////////////////////////////////////
   Circle Responsive */
 
+/* for phone */
 @media (min-width: 100px) and (max-width: 699px) {
   .Circle1__Right__To__Left {
     animation: AnimateCircle1__Right__Left 1s;
@@ -265,7 +266,67 @@
     }
     to {
       top: 0%;
-      right: 70%;
+      right: 50%;
+    }
+  }
+  @keyframes AnimateCircle1__Left__Right {
+    from {
+      top: 0;
+      right: 50%;
+    }
+    to {
+      top: 0;
+      right: 0;
+    }
+  }
+  .Circle2__Left__To__Right {
+    animation: AnimateCircle2__Left__Right 1s;
+    animation-fill-mode: forwards;
+  }
+  .Circle2__Right__To__Left {
+    animation: AnimateCircle2__Right__Left 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes AnimateCircle2__Left__Right {
+    from {
+      bottom: 20%;
+      left: 5%;
+    }
+    to {
+      bottom: 20%;
+      left: 70%;
+    }
+  }
+  @keyframes AnimateCircle2__Right__Left {
+    from {
+      bottom: 15%;
+      left: 50%;
+    }
+    to {
+      bottom: 15%;
+      left: 5%;
+    }
+  }
+}
+
+/* for pads */
+@media (min-width: 700) and (max-width: 1023px) {
+  .Circle1__Right__To__Left {
+    animation: AnimateCircle1__Right__Left 1s;
+    animation-fill-mode: forwards;
+  }
+  .Circle1__Left__To__Right {
+    animation: AnimateCircle1__Left__Right 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes AnimateCircle1__Right__Left {
+    from {
+      top: 0%;
+      right: 0%;
+    }
+    to {
+      top: 0%;
+      right: 80%;
     }
   }
   @keyframes AnimateCircle1__Left__Right {
@@ -288,18 +349,78 @@
   }
   @keyframes AnimateCircle2__Left__Right {
     from {
-      bottom: 15%;
+      bottom: 20%;
       left: 5%;
     }
     to {
-      bottom: 15%;
-      left: 50%;
+      bottom: 20%;
+      left: 70%;
     }
   }
   @keyframes AnimateCircle2__Right__Left {
     from {
       bottom: 15%;
       left: 50%;
+    }
+    to {
+      bottom: 15%;
+      left: 5%;
+    }
+  }
+}
+
+/* for desktop */
+@media (min-width: 1024px) and (max-width: 1699px) {
+  .Circle1__Right__To__Left {
+    animation: AnimateCircle1__Right__Left 1s;
+    animation-fill-mode: forwards;
+  }
+  .Circle1__Left__To__Right {
+    animation: AnimateCircle1__Left__Right 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes AnimateCircle1__Right__Left {
+    from {
+      top: 10%;
+      right: 10%;
+    }
+    to {
+      top: 20%;
+      right: 80%;
+    }
+  }
+  @keyframes AnimateCircle1__Left__Right {
+    from {
+      top: 20;
+      right: 80%;
+    }
+    to {
+      top: 15%;
+      right: 5%;
+    }
+  }
+  .Circle2__Left__To__Right {
+    animation: AnimateCircle2__Left__Right 1s;
+    animation-fill-mode: forwards;
+  }
+  .Circle2__Right__To__Left {
+    animation: AnimateCircle2__Right__Left 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes AnimateCircle2__Left__Right {
+    from {
+      bottom: 15%;
+      left: 5%;
+    }
+    to {
+      bottom: 15%;
+      left: 80%;
+    }
+  }
+  @keyframes AnimateCircle2__Right__Left {
+    from {
+      bottom: 15%;
+      left: 80%;
     }
     to {
       bottom: 15%;

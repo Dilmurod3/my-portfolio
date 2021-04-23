@@ -83,7 +83,7 @@
   }
   .SharedComponent {
     width: 90%;
-    height: 70%;
+    height: 80vh;
     padding: 20px;
   }
 }
@@ -91,11 +91,13 @@
 @media (min-width: 900px) and (max-width: 1350px) {
   .SharedComponent {
     width: 90%;
+    height: auto;
   }
 }
 
 @media (min-width: 1351px) and (max-width: 1610px) {
   .SharedComponent {
     width: 80%;
+    height: auto;
   }
 }

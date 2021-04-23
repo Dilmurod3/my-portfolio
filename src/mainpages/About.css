@@ -89,6 +89,9 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .OwnerName > h1 {
+    font-size: 22px;
+  }
   .Logos {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -105,6 +108,6 @@
   .Logos {
     display: flex;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
   }
 }

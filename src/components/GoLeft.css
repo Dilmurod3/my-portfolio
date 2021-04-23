@@ -9,7 +9,6 @@
     rgba(255, 255, 255, 0.5) 0%,
     rgba(255, 255, 255, 0.05) 100%
   );
-  z-index: 9999;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
   margin-right: 50px;
@@ -37,7 +36,7 @@
 
 @media (min-width: 1351px) and (max-width: 1610px) {
   .Left__Button {
-    left: 20%;
-    bottom: 5%;
+    left: 3%;
+    top: 50%;
   }
 }
