@@ -5,9 +5,10 @@ import ImageViewer from "react-simple-image-viewer";
 
 // Project images
 import qadaa from "../assets/projects-images/Qadaa.png";
-import foodie from "../assets/projects-images/Foodie.png";
+import aboutFruits from "../assets/projects-images/About fruits.png";
 import gameDashboard from "../assets/projects-images/Game dashboard.png";
-import covid from "../assets/projects-images/Covid.png";
+import neumorphicDesign from "../assets/projects-images/Neumorphism.png";
+import foodRecipes from "../assets/projects-images/Food recipes.png";
 
 //Modal images
 import ModalCloseIcon from "../assets/ModalCloseIcon.svg";
@@ -18,13 +19,32 @@ import ViewOnFigma from "../assets/projects-images/project-modal-images/ViewOnFi
 import language from "../assets/projects-images/project-modal-images/qadaa/language.png";
 import chooseCalculateMode from "../assets/projects-images/project-modal-images/qadaa/chooseCalculateMode.png";
 import fillFormMale from "../assets/projects-images/project-modal-images/qadaa/fillFormMale.png";
+import calculateByDateFemale from "../assets/projects-images/project-modal-images/qadaa/calculateByDateFemale.png";
 import home from "../assets/projects-images/project-modal-images/qadaa/home.png";
 import settings from "../assets/projects-images/project-modal-images/qadaa/settings.png";
+import chooseLanguage from "../assets/projects-images/project-modal-images/qadaa/chooseLanguage.png";
+import aboutUs from "../assets/projects-images/project-modal-images/qadaa/aboutUs.png";
+
+// About fruits
+import apple from "../assets/projects-images/project-modal-images/about-fruits/Apple-min.png";
+import strawberry from "../assets/projects-images/project-modal-images/about-fruits/Strawberry-min.png";
+import pear from "../assets/projects-images/project-modal-images/about-fruits/Pear-min.png";
+import grape from "../assets/projects-images/project-modal-images/about-fruits/Grapes-min.png";
 
 // Game Dashboard
 import gameHome from "../assets/projects-images/project-modal-images/game-dashboard/game-home.png";
 import gameFriends from "../assets/projects-images/project-modal-images/game-dashboard/game-friends.png";
 import gameGame from "../assets/projects-images/project-modal-images/game-dashboard/game-game.png";
+
+// Neumorphic Design
+import neuClock from "../assets/projects-images/project-modal-images/neumorphic-design/Clock.png";
+import neuPhone from "../assets/projects-images/project-modal-images/neumorphic-design/Phone.png";
+import neuMusic from "../assets/projects-images/project-modal-images/neumorphic-design/Music.png";
+import neuCalculator from "../assets/projects-images/project-modal-images/neumorphic-design/Calculator.png";
+
+// Food recipes
+import foodRecipesMainPage from "../assets/projects-images/project-modal-images/food-recipes/Main page.png";
+import foodRecipesModal from "../assets/projects-images/project-modal-images/food-recipes/Recipe modal.png";
 
 function Projects() {
   return (
@@ -40,13 +60,26 @@ function Projects() {
               language,
               chooseCalculateMode,
               fillFormMale,
+              calculateByDateFemale,
               home,
               settings,
+              chooseLanguage,
+              aboutUs,
             ],
             playStoreLink:
-              "https://www.figma.com/file/nErQiD4fgUF41NWff0o1VA/Qadaa-Calculator?node-id=405%3A336",
+              "https://play.google.com/store/apps/details?id=com.qadaacalculatornative&ah=VW8AWXNKXo_FpWnAxkLo2-FtXsg",
             figmaLink:
-              "https://www.figma.com/file/nErQiD4fgUF41NWff0o1VA/Qadaa-Calculator?node-id=405%3A336",
+              "https://www.figma.com/file/nErQiD4fgUF41NWff0o1VA/Qadaa-Calculator?node-id=557%3A1132",
+          }}
+        />
+        <ProjectBoxes
+          image={aboutFruits}
+          modalProps={{
+            title: "About Fruits",
+            images: [apple, strawberry, pear, grape],
+            googlePlay: { display: "none" },
+            figmaLink:
+              "https://www.figma.com/file/zh3QeuWOqKRBlxpF6wceEv/About-Fruits?node-id=0%3A1",
           }}
         />
         <ProjectBoxes
@@ -56,55 +89,30 @@ function Projects() {
             images: [gameHome, gameFriends, gameGame],
             googlePlay: { display: "none" },
             figmaLink:
-              "https://www.figma.com/proto/c0EXQakOUPvqECQZUgFTk5/Foods?node-id=102%3A3&viewport=77%2C126%2C0.1441030353307724&scaling=min-zoom",
+              "https://www.figma.com/file/GPXUB1aKyqlOL19pLjrxZb/Game-Dashboard",
           }}
         />
-        {/* <ProjectBoxes
-          link="https://www.figma.com/proto/c0EXQakOUPvqECQZUgFTk5/Foods?node-id=102%3A3&viewport=77%2C126%2C0.1441030353307724&scaling=min-zoom"
-          image={foodie}
-        />
-     
         <ProjectBoxes
-          link="https://dilmurod3.github.io/Corona-Virus-Stats/"
-          image={covid}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#F2C94C" }}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#219653" }}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#2F80ED" }}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#BB6BD9" }}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#6FCF97" }}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#EB5757" }}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#777777" }}
-        />
-        <ProjectBoxes
-          title={"Coming soon"}
-          color={{ backgroundColor: "#56CCF2" }}
+          image={neumorphicDesign}
           modalProps={{
-            title: "asdda",
+            title: "Neumorphic Design",
             applyPhoneStyle: true,
-            images: [covid, gameDashboard, foodie],
+            images: [neuClock, neuPhone, neuMusic, neuCalculator],
+            googlePlay: { display: "none" },
+            figmaLink:
+              "https://www.figma.com/file/bpng5WGSHYgu82IpRHY48S/Neumorphic-Design?node-id=0%3A1",
           }}
-        /> */}
+        />
+        <ProjectBoxes
+          image={foodRecipes}
+          modalProps={{
+            title: "Food recipes",
+            images: [foodRecipesMainPage, foodRecipesModal],
+            googlePlay: { display: "none" },
+            figmaLink:
+              "https://www.figma.com/file/oGY99e2JTfXP0CQ3YySrzj/Food-recipes?node-id=0%3A1",
+          }}
+        />
       </div>
     </div>
   );
@@ -112,7 +120,7 @@ function Projects() {
 
 export default Projects;
 
-function ProjectBoxes({ title, image, color, modalProps }) {
+function ProjectBoxes({ image, color, modalProps }) {
   const [showModal, setShowModal] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
@@ -130,7 +138,6 @@ function ProjectBoxes({ title, image, color, modalProps }) {
         onClick={() => setShowModal(!showModal)}
       >
         <img src={image} width={"100%"} />
-        <p>{title}</p>
       </div>
       <Modal
         className="modalBackground"

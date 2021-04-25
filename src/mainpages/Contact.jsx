@@ -14,13 +14,13 @@ function Contact() {
         <a href="https://www.instagram.com/dilmurod__rahimov/" target="_blank">
           <img src={Instagram} />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://t.me/DilmurodRahimov" target="_blank">
           <img src={Telegram} />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.facebook.com/Dilmurod.Rahimoff" target="_blank">
           <img src={Facebook} />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://github.com/Dilmurod3" target="_blank">
           <img src={Github} />
         </a>
         <a href="#" target="_blank">
