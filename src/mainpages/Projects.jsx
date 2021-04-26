@@ -16,13 +16,11 @@ import GooglePlay from "../assets/projects-images/project-modal-images/GooglePla
 import ViewOnFigma from "../assets/projects-images/project-modal-images/ViewOnFigma.svg";
 
 // Qadaa
-import language from "../assets/projects-images/project-modal-images/qadaa/language.png";
-import chooseCalculateMode from "../assets/projects-images/project-modal-images/qadaa/chooseCalculateMode.png";
-import fillFormMale from "../assets/projects-images/project-modal-images/qadaa/fillFormMale.png";
-import calculateByDateFemale from "../assets/projects-images/project-modal-images/qadaa/calculateByDateFemale.png";
-import home from "../assets/projects-images/project-modal-images/qadaa/home.png";
-import settings from "../assets/projects-images/project-modal-images/qadaa/settings.png";
-import chooseLanguage from "../assets/projects-images/project-modal-images/qadaa/chooseLanguage.png";
+import languageWelcomePages from "../assets/projects-images/project-modal-images/qadaa/language-welcome-pages.png";
+import signInChooseCalculatePages from "../assets/projects-images/project-modal-images/qadaa/signIn-chooseCalculate-pages.png";
+import fillUpForms from "../assets/projects-images/project-modal-images/qadaa/fillUpForms.png";
+import homeSettings from "../assets/projects-images/project-modal-images/qadaa/home-settings.png";
+import languageAddPrays from "../assets/projects-images/project-modal-images/qadaa/language-addPrays.png";
 import aboutUs from "../assets/projects-images/project-modal-images/qadaa/aboutUs.png";
 
 // About fruits
@@ -57,13 +55,11 @@ function Projects() {
             title: "Qadaa Calculator",
             applyPhoneStyle: true,
             images: [
-              language,
-              chooseCalculateMode,
-              fillFormMale,
-              calculateByDateFemale,
-              home,
-              settings,
-              chooseLanguage,
+              languageWelcomePages,
+              signInChooseCalculatePages,
+              fillUpForms,
+              homeSettings,
+              languageAddPrays,
               aboutUs,
             ],
             playStoreLink:

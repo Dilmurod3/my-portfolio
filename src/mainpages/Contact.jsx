@@ -23,7 +23,7 @@ function Contact() {
         <a href="https://github.com/Dilmurod3" target="_blank">
           <img src={Github} />
         </a>
-        <a href="#" target="_blank">
+        <a href="mailto:rahimoff.dilmurod@gmail.com" target="_blank">
           <img src={Gmail} />
         </a>
       </div>
